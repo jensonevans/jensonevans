@@ -1,16 +1,52 @@
-## Hi there 👋
+<p align="center">
+  <img src="REPLACE_PROFILE_IMAGE.jpg" width="140" style="border-radius:50%; border: 3px solid #6e78ff;" />
+</p>
 
-<!--
-**jensonevans/jensonevans** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Jenson Evans</h1>
 
-Here are some ideas to get you started:
+<p align="center"><i>• Computer Science Student •</i></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Projects
+
+### 🔹 Project 1 — REPLACE PROJECT NAME
+<img src="REPLACE_PROJECT_IMAGE_1.jpg" width="500" />
+
+Short description goes here.
+
+---
+
+### 🔹 Project 2 — REPLACE PROJECT NAME
+<img src="REPLACE_PROJECT_IMAGE_2.jpg" width="500" />
+
+Short description goes here.
+
+---
+
+### 🔹 Project 3 — REPLACE PROJECT NAME
+<img src="REPLACE_PROJECT_IMAGE_3.jpg" width="500" />
+
+Short description goes here.
+
+---
+
+## 👤 About Me
+
+REPLACE WITH YOUR BIO.  
+Explain your background, passions, interests, and skills.
+
+---
+
+## 📬 Contact Me
+
+**Email:** Jensonevans44@gmail.com  
+**GitHub:** https://github.com/jensonevans 
+
+---
+
+<p align="center">
+  © REPLACE_YEAR — <b>REPLACE NAME</b>
+</p>
+
+
