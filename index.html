@@ -1,73 +1,128 @@
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CS Portfolio</title>
+  <style>
     body {
       margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      text-align: center;
     }
 
-    .circle {
-      width: 200px;              /* Adjust size */
-      height: 200px;
-      border: 6px solid black;   /* Black circle border */
+    header {
+      padding: 40px 20px;
+      background: white;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border: 4px solid black;
       border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;          /* Ensures image stays circular */
+      overflow: hidden;
+      margin: 0 auto 15px;
     }
 
-    .circle img {
+    .profile-pic img {
       width: 100%;
       height: 100%;
-      object-fit: cover;         /* Crop image nicely */
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #666;
+      margin: 0;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 25px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    section h3 {
+      margin-top: 0;
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 <body>
 
-  <div class="circle">
-    <img src="your-image.jpg" alt="Centered Image">
-  </div>
-<h1 align="center">Jenson Evans</h1>
-<p align="center"><i>Computer Science Student</i></p>
+  <header>
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Profile Picture">
+    </div>
+    <h1>Your Name</h1>
+    <h2>Computer Science Student</h2>
+  </header>
 
----
+  <section>
+    <h3>Coding Skillset</h3>
+    <ul>
+      <li>Python</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </section>
 
-## 🚀 Projects
+  <section>
+    <h3>About Me</h3>
+    <p>
+      I am a computer science student with a strong interest in software development,
+      problem solving, and learning new technologies.
+    </p>
+  </section>
 
-### 🔹 Project 1 — [Project Alpha](github.com)
-<img src="via.placeholder.com" width="500" />
-A brief description of your first project, highlighting the technology used (e.g., Python, React, Java) and its purpose.
+  <section>
+    <h3>What I'm Doing Now</h3>
+    <p>
+      Currently working on personal coding projects, improving data structures skills,
+      and exploring algorithms.
+    </p>
+  </section>
 
----
+  <section>
+    <h3>Hobbies</h3>
+    <p>
+      Coding, gaming, reading tech blogs, and learning new programming languages.
+    </p>
+  </section>
 
-### 🔹 Project 2 — [Project Beta](github.com)
-<img src="via.placeholder.com" width="500" />
-A brief description of your second project. Mentioning whether it was a personal project, university assignment, or collaboration is helpful context.
+  <section>
+    <h3>Contact Me</h3>
+    <p>
+      Email: your.email@example.com<br>
+      GitHub: github.com/yourusername<br>
+      LinkedIn: linkedin.com/in/yourname
+    </p>
+  </section>
 
----
+  <footer>
+    © 2025 Your Name
+  </footer>
 
-### 🔹 Project 3 — [Project Gamma](github.com)
-<img src="via.placeholder.com" width="500" />
-A brief description of your third project. Focus on the impact or what you learned during its development.
-
----
-
-## 👤 About Me
-
-Hello! I'm Jenson, a passionate computer science student with a strong interest in software development and full-stack engineering. I enjoy solving complex problems and building efficient, scalable solutions. My core skills include Python, JavaScript, and working with frameworks like React and Django. In my free time, I like contributing to open-source projects and keeping up with the latest trends in technology.
-
----
-
-## 📬 Contact Me
-
-**Email:** [Jensonevans44@gmail.com](mailto:Jensonevans44@gmail.com)
-
-**GitHub:** [github.com](github.com)
-
----
-
-<p align="center">© 2025 — <b>Jenson Evans</b></p>
+</body>
+</html>
