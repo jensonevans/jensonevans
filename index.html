@@ -7,14 +7,18 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
+      color: #ffffff;
       text-align: center;
+
+      /* Background image */
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
 
     header {
       padding: 40px 20px;
-      background: white;
     }
 
     .profile-pic {
@@ -24,6 +28,7 @@
       border-radius: 50%;
       overflow: hidden;
       margin: 0 auto 15px;
+      background: #000;
     }
 
     .profile-pic img {
@@ -38,7 +43,7 @@
 
     h2 {
       font-weight: normal;
-      color: #666;
+      color: #dddddd;
       margin: 0;
     }
 
@@ -46,14 +51,16 @@
       max-width: 700px;
       margin: 25px auto;
       padding: 20px;
-      background: white;
-      border-radius: 8px;
       text-align: left;
+
+      /* Subtle text contrast */
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
     }
 
     section h3 {
       margin-top: 0;
-      border-bottom: 2px solid #000;
+      border-bottom: 2px solid #ffffff;
       padding-bottom: 5px;
     }
 
@@ -61,10 +68,19 @@
       padding-left: 20px;
     }
 
+    a {
+      color: #9fd3ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       padding: 20px;
       font-size: 14px;
-      color: #666;
+      color: #dddddd;
     }
   </style>
 </head>
@@ -98,14 +114,18 @@
   <section>
     <h3>What I'm Currently Doing</h3>
     <p>
-      Currently i am working through my first year of the computer science course at the University of South Wales.
+      Currently I am working through my first year of the computer science course at the
+      University of South Wales.
     </p>
   </section>
 
   <section>
     <h3>Hobbies</h3>
     <p>
-      When im not working on my Computer Science assignments I find myself playing Video Games alone and with my friends. Another major hobby of mine is Music, I love listening to Music with my favourite artist currently being Jane Remover, as well creating my own music and posting it on soundcloud as "Flare" which you can find at https://soundcloud.com/flare1007.
+      When I'm not working on my Computer Science assignments I enjoy playing video games
+      with friends. I also love music—listening to artists like Jane Remover and creating
+      my own music under the name <strong>Flare</strong> on
+      <a href="https://soundcloud.com/flare1007" target="_blank">SoundCloud</a>.
     </p>
   </section>
 
@@ -113,7 +133,7 @@
     <h3>Contact Me</h3>
     <p>
       Email: jensonevans44@gmail.com<br>
-      GitHub: github.com/jensonevans<br>
+      GitHub: <a href="https://github.com/jensonevans" target="_blank">github.com/jensonevans</a>
     </p>
   </section>
 
@@ -123,3 +143,4 @@
 
 </body>
 </html>
+
